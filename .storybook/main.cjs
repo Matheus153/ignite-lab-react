@@ -20,6 +20,8 @@ module.exports = {
     if (configType == 'PRODUCTION') {
       config.base = '/ignite-lab-react/'
     }
+
+    return config
   }
 
 }
